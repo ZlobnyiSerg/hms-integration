@@ -30,7 +30,7 @@ namespace HmsSanatoriumBridge.Handlers
                 _bus.Reply(new PostTransactionResponse(message)
                 {
                     Succeeded = true,
-                    Ids = new long[] {1, 2, 3}
+                    Ids = new string[] {"1", "2", "3"}
                 });
             }
             catch (ApplicationException ex)
