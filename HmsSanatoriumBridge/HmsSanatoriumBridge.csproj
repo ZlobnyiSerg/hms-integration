@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="BridgeService.cs" />
     <Compile Include="BusFactory.cs" />
+    <Compile Include="Handlers\CreateProfileRequestHandler.cs" />
     <Compile Include="Handlers\PostPaymentHandler.cs" />
     <Compile Include="Handlers\ReservationsWorker.cs" />
     <Compile Include="Program.cs" />

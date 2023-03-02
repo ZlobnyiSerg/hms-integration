@@ -24,3 +24,4 @@ HmsSanatoriumBridge.exe help
 
 1. *PostPaymentHandler.cs* - обработка событий закрытия услуг из МИС Санаториум на счёт гостя/брони/компании.
 2. *ReservationsWorker.cs* - пример отправки сообщений из HMS в Санаториум с информацией об изменениях в брони.
+3. *CreateProfileRequestHandler.cs* - обработка событий создания/изменения в МИС амбулаторных карт.
