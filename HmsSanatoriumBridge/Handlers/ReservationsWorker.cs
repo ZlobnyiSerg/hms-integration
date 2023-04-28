@@ -39,7 +39,7 @@ namespace HmsSanatoriumBridge.Handlers
         /// </summary>
         private void ProcessReservation(bool reservationIsNew)
         {
-            var message = reservationIsNew ? new ReservationMessage() : new ReservationUpdatedMessage();
+            var message = new ReservationUpdatedMessage();
 
             message.GenericNo = "100001";
             message.ArrivalDate = DateTime.Now;
